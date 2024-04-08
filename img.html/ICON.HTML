@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 400px;
+            border: solid black;
+            margin: auto;
+            text-align: center;
+        }
+
+        /* Style for the email input */
+        input[type="email"] {
+            padding-left: 30px; /* Adjust this value to align the icon correctly */
+            background-image: url('email-icon.png'); /* Add the URL of your email icon */
+            background-size: 20px; 
+            background-position: 5px center; 
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <h1>Register <hr> </h1>
+            <input type="radio" name="type">personal <input type="radio" name="type">company <br> <br>
+            <input placeholder="Email" type="email"> <br> <br>
+            <input placeholder="name" type="text"> <br> <br>
+            <input placeholder="password" type="password"> <br> <br>
+            <input type="radio" name="gender"> male  <input type="radio" name="gender">female <br> <br>
+
+            <label for=""><h5>by clicking Register, you <br>agree on our <a  href="terms-and-condition.html">Terms and Conditions</a></h5></label>
+            <input type="submit" value="Register" style="background-color: blue;">
+        </form>
+    </div>
+</body>
+</html>
